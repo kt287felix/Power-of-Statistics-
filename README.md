@@ -7,7 +7,30 @@ Statistics is the backbone of data analysis. Before building models or drawing c
 This project explores **descriptive statistics using Python** on a real-world education dataset from India, covering district-wise literacy rates across 680 districts for the academic year **2015–16**. Through this work, I practiced computing and interpreting key statistical measures that reveal the shape, center, and spread of data.
 
 ---
+## 🚨 EXERCISE ALERT — Test Yourself After Mastering This Content!
 
+> **Do not just read — practice!**
+>
+> Once you have studied this README and understood the notebook fully, challenge yourself with the **hands-on exercise** included in this repository. Be serious, be focused, and attempt it independently before checking any answers.
+
+### 📂 Exercise Files Included in This Repo:
+
+| File | Purpose |
+|------|---------|
+| `c4_epa_air_quality.csv` | Dataset for the exercise — EPA Air Quality data |
+| `Exemplary_Descriptive_Stats_Exercise.ipynb` | Exercise notebook — attempt it on your own! |
+
+### 📌 How to Approach the Exercise:
+1. **Master this README and the main notebook first** — make sure you understand `describe()`, `mean()`, `median()`, `std()`, `var()`, and range before attempting it
+2. **Open the exercise notebook** without peeking at solutions
+3. **Apply everything you learned** here to the new EPA air quality dataset on your own
+4. Only seek help if you are genuinely stuck — independent thinking is the goal
+
+> 💬 *"Learning statistics is not about memorising functions — it is about knowing which question each function answers. The exercise is where that real understanding gets tested."*
+
+---
+
+---
 ## 📁 Dataset
 
 **Source:** Education in India — District-wise (2015–16)
