@@ -180,3 +180,4 @@ print("Range:",              range_li)  # 61.54
 > 💡 The `min()` and `max()` functions are especially powerful when **used together** — combining them gives you the **range**, which captures the total spread of your data in a single number. Here, literacy rates span **61.54 percentage points** (37.22% to 98.76%), revealing a dramatic inequality in education outcomes across Indian districts.
 
 ---
+⭐ If this helped you, please star the repo — it means a lot!
