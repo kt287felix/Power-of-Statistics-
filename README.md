@@ -18,7 +18,7 @@ This project explores **descriptive statistics using Python** on a real-world ed
 | File | Purpose |
 |------|---------|
 | `c4_epa_air_quality.csv` | Dataset for the exercise — EPA Air Quality data |
-| `Exemplary_Descriptive_Stats_Exercise.ipynb` | Exercise notebook — attempt it on your own! |
+| `Exercise to test yourself.ipynb` | Exercise notebook — attempt it on your own! |
 
 ### 📌 How to Approach the Exercise:
 1. **Master this README and the main notebook first** — make sure you understand `describe()`, `mean()`, `median()`, `std()`, `var()`, and range before attempting it
