@@ -30,8 +30,7 @@ This project explores **descriptive statistics using Python** on a real-world ed
 
 ```python
 import os
-os.chdir('C:\\Users\\YourName\\Downloads\\your_folder')  # paste your path here (Windows)
-# os.chdir('/Users/yourname/Downloads/your_folder')      # Mac / Linux
+os.chdir('paste your path here')  # (Windows)
 ```
 
 > 💡 On Windows, replace any single backslashes `\` in the copied path with double backslashes `\\` — for example `C:\Users\John` becomes `C:\\Users\\John`.
@@ -47,7 +46,6 @@ print(os.getcwd())
 ## 📦 Libraries
 
 ```python
-import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -110,7 +108,7 @@ For text data, Python instead returns the **count, number of unique values, the 
 
 ### Individual Functions for Deeper Control
 
-While `describe()` gives you everything at once, Python also provides **individual functions** for each statistic. These become essential when you want to **compute further or build logic** on top of a specific measure.
+While `describe()` gives you everything at once, Python also provides **individual functions** for each statistic. These become essential when you want Python's **individual stat functions** (`mean()`, `median()`, `std()`, `var()`, `min()`, `max()`) give you precision and flexibility when you need to go further.
 
 #### Measures of Central Tendency
 
@@ -121,9 +119,9 @@ mean_literacy_rate   = education_districtwise['OVERALL_LI'].mean()
 median_literacy_rate = education_districtwise['OVERALL_LI'].median()
 blocks_mode          = education_districtwise['BLOCKS'].mode()
 
-print("Mean Literacy Rate:",   mean_literacy_rate)    # 73.395%
-print("Median Literacy Rate:", median_literacy_rate)  # 73.490%
-print("Mode of BLOCKS:",       blocks_mode)           # 6
+print("Mean Literacy Rate:",   mean_literacy_rate)    
+print("Median Literacy Rate:", median_literacy_rate)  
+print("Mode of BLOCKS:",       blocks_mode)           
 ```
 
 | Function | What It Measures | When to Use It |
@@ -159,29 +157,3 @@ print("Range:",              range_li)  # 61.54
 > 💡 The `min()` and `max()` functions are especially powerful when **used together** — combining them gives you the **range**, which captures the total spread of your data in a single number. Here, literacy rates span **61.54 percentage points** (37.22% to 98.76%), revealing a dramatic inequality in education outcomes across Indian districts.
 
 ---
-
-## 🔑 Key Takeaways
-
-- **`describe()`** is your fastest tool for a full statistical overview — numerical and categorical alike
-- Python's **individual stat functions** (`mean()`, `median()`, `std()`, `var()`, `min()`, `max()`) give you precision and flexibility when you need to go further
-- **Mean vs Median** comparison is a quick and reliable outlier detection technique
-- Combining `min()` and `max()` to compute **range** is a practical example of how individual functions unlock further computation
-- India's district-level literacy data shows a **73% average rate** but a **61-point range** — statistics that together tell a much richer story than either would alone
-
----
-
-## 📂 Repository Structure
-
-```
-📁 Power-of-Statistics/
-│
-├── Power_of_Statistics.ipynb    ← Jupyter Notebook with full analysis
-├── education_districtwise.csv   ← Dataset (download & unzip from Kaggle)
-└── README.md                    ← This file
-```
-
----
-
-## 👤 Author
-
-Aspiring Data Analyst | Google Advanced Data Analytics Certificate — Coursera
